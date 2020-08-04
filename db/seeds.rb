@@ -1,0 +1,2 @@
+Song.create(title: "Monkey Buisness", genre: "pop", released: true, release_year: 1999, artist_name: 'Sombodys')
+Song.create(title: "Underground", genre: "punk", released: false, release_year: 2003, artist_name: "Nobody")
