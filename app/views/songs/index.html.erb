@@ -1,0 +1,21 @@
+<h1>Songs</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Released?</th>
+            <th>Release Year</th>
+            <th>Artist Name</th>
+            <th>Genre</th>
+        </tr>
+    </thead>
+    <tbody>
+        <%= render @songs %>
+    </tbody>
+</table>
+
+<br>
+<div>
+    <%= button_to "Create new song", new_song_path, method: :get %>
+</div>
