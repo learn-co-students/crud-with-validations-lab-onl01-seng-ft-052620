@@ -1,0 +1,11 @@
+<h3>New Song</h3>
+  
+ <%= form_for @song do |f| %>
+    <%= f.text_area :title %>
+    <%= f.text_area :released %>
+    <%= f.text_area :release_year %>
+    <%= f.text_area :rartist_name %>
+    <%= f.text_area :genre %>
+
+    <%= f.submit %>
+  <% end %>
